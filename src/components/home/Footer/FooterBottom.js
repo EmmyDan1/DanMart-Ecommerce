@@ -10,11 +10,7 @@ const FooterBottom = () => {
             <AiOutlineCopyright />
           </span>
           Copyright 2025 | DanMart | All Rights Reserved |
-          <a href="https://reactbd.com/" target="_blank" rel="noreferrer">
-            <span className="ml-1 font-medium group-hover:text-primeColor">
-              Powered by ReactBD.com
-            </span>
-          </a>
+ 
         </p>
       </div>
     </div>
