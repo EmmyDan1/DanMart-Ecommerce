@@ -58,7 +58,7 @@ const Header = () => {
             )}
             <HiMenuAlt2
               onClick={() => setSidenav(!sidenav)}
-              className="inline-block md:hidden cursor-pointer w-8 h-6 absolute top-6 right-4"
+              className="inline-block md:hidden cursor-pointer w-8 h-6 absolute top-6 right-4 text-white"
             />
             {sidenav && (
               <div className="fixed top-0 left-0 w-full h-screen bg-black text-gray-200 bg-opacity-80 z-50">
