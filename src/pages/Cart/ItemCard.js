@@ -1,11 +1,11 @@
-import React from "react";
+
 import { ImCross } from "react-icons/im";
 import { useDispatch } from "react-redux";
 import {
   deleteItem,
   drecreaseQuantity,
   increaseQuantity,
-} from "../../redux/orebiSlice";
+} from "../../redux/danMartSlice";
 
 const ItemCard = ({ item }) => {
   const dispatch = useDispatch();
